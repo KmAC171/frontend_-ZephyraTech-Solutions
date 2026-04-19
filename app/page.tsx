@@ -82,11 +82,11 @@ export default function LandingPage() {
                   <input
                     type={showPassword ? "text" : "password"}
                     placeholder="Password"
-                    className="w-full pl-12 pr-12 py-4 bg-gray-50 rounded-2xl border border-gray-100 outline-none focus:border-primary transition-all"
+                    className="w-full pl-4 pr-12 py-4 bg-gray-50 rounded-2xl border border-gray-200 outline-none focus:border-primary transition-all"
                   />
                   <button
                     type="button"
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500 cursor-pointer"
                     onClick={() => setShowPassword(!showPassword)}
                   >
                     {showPassword ? <FaEyeSlash /> : <FaEye />}
